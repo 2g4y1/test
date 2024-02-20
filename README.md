@@ -78,7 +78,7 @@ dlt.green [-m mode/optional] [-t time/optional] [-r reboot/optional] [-c checks/
   - `i`: all logs
   - `w`: only warning and error logs
   - `e`: only error logs
-  (default: i)
+    (default: i)
 
 ## Operation
 
@@ -105,7 +105,8 @@ We would like to point out that this is not a supported installer by the Iota Fo
 
 THIS PROJECT IS DEVELOPED BY DLT.GREEN WITH ITS COMMUNITY.
 YOU CAN SUPPORT THIS PROJECT WITH DONATIONS TO THE DLT.GREEN TREASURY:
+
 - IOTA: [`iota1qq7seed74mzvy9g6nj2nj88pm37gf2x5qv35jcun78n86hyzaqcaggy8ewa`](https://explorer.iota.org/mainnet/addr/iota1qq7seed74mzvy9g6nj2nj88pm37gf2x5qv35jcun78n86hyzaqcaggy8ewa)
-- Shimmer: [`smr1qzp87wkakd22ld6rvcjuwuvn5usevmvut565y6l32xhfucpemu0extkpws0`](smr1qzp87wkakd22ld6rvcjuwuvn5usevmvut565y6l32xhfucpemu0extkpws0)
-- Shimmer EVM: [`0x6c5ab03b8e4b4f9ec591d211411082a7ab925c05`]()
+- Shimmer: [`smr1qzp87wkakd22ld6rvcjuwuvn5usevmvut565y6l32xhfucpemu0extkpws0`](https://explorer.shimmer.network/shimmer/addr/smr1qzp87wkakd22ld6rvcjuwuvn5usevmvut565y6l32xhfucpemu0extkpws0)
+- Shimmer EVM: [`0x6c5ab03b8e4b4f9ec591d211411082a7ab925c05`](https://explorer.evm.shimmer.network/address/0x6c5aB03b8E4b4F9ec591D211411082A7ab925C05)
 - Soonaverse: [`https://soonaverse.com/member/0x422bed2759f72e7d6ae1e100707ca45e26e9a12c`](https://soonaverse.com/member/0x422bed2759f72e7d6ae1e100707ca45e26e9a12c)
