@@ -49,11 +49,34 @@ dlt.green
 
 ### NODE-INSTALLER Unattended Mode
 
-Use this syntax for unattended operations:
+To run the NODE-INSTALLER in unattended mode, use the following syntax with optional flags:
 ```console
 dlt.green [-m mode/optional] [-t time/optional] [-r reboot/optional] [-c checks/optional] [-l logs/optional]
 ```
-Options for `mode`, `time`, `reboot`, `checks`, and `logs` are detailed within the script instructions.
+
+Each flag represents a different configuration option:
+
+- `mode`: Sets the operation mode of the installer.
+   - `s`: Start all Nodes.
+   - `0`: Maintenance – Performs system updates, Docker cleanup, and certificate update. Installs Docker if not present.
+   - `1`: Update – Updates IOTA-Hornet nodes.
+   - `2`: Update – Updates IOTA-Wasp nodes.
+   - `5`: Update – Updates Shimmer-Hornet nodes.
+   - `6`: Update – Updates Shimmer-Wasp nodes.
+   - `u`: Executes Mode 0 and performs unattended recursive Node Updates when possible. Supports the last 10 releases in the GitHub pipeline (older versions are not updated).
+- `time`: Sets the delay in seconds before executing an action (0-20 seconds, default: 10).
+- `reboot`:
+   - `0`: No reboot after operations.
+   - `1`: Executes a system reboot with automatic node shutdown prior to it (default: 0).
+- `checks`:
+   - `0`: Disables checks (not recommended).
+   - `1`: Enforces UFW Firewall and Autostart setup (default: 1).
+- `logs`:
+   - `i`: Displays all logs.
+   - `w`: Shows only warnings and errors in logs.
+   - `e`: Shows only errors in logs (default: i).
+
+Utilize these options according to your needs to automate node management tasks efficiently.
 
 ### Operation Tutorial
 
