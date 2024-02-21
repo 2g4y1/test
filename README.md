@@ -5,7 +5,7 @@
 
 # DLT.GREEN Vision
 
-As a collective from the IOTA community, we envision revolutionizing the IOTA/Shimmer ecosystem by introducing a Dynamic Node Selection (DNS) service. Our goal is to transition from static node assignments in wallets to dynamic, situational node selection—ushering in an era where operational node concerns are obsolete. Imagine IoT devices choosing the best nodes based on specific criteria like proof of work capability, event support, reliability, or connection speed. We emphasize wallet-to-node direct data traffic, ensuring efficiency and bypassing intermediary node pools.
+We are a team of individuals from the IOTA community with a vision to create a DNS server for the IOTA/Shimmer ecosystem, aiming to enhance user experience. Here, "DNS" stands for "Dynamic Node Selection." Our objective is to move away from static node usage in wallets towards dynamic selection based on the situation. The era of static nodes within the IOTA/Shimmer ecosystem is coming to an end. Envision never having to worry about the operational status of nodes. Picture IoT devices autonomously selecting nodes tailored to their specific needs; this could be based on factors such as proof of work, event support, trustworthiness, or available access speed. We prioritize direct data traffic between the wallet and the node itself, bypassing the node pool.
 
 ## DLT.GREEN Automatic Node-Installer for Docker
 
