@@ -3,15 +3,13 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/dlt-green/node-installer-docker)
 ![GitHub license](https://img.shields.io/github/license/dlt-green/node-installer-docker)
 
-# DLT.GREEN INITIATIVE
+# DLT.GREEN Vision
 
-Join us on a transformative journey in the IOTA community, as we at DLT.GREEN lead the charge to revolutionize how DNS — that's Dynamic Node Selection — operates within the IOTA/Shimmer ecosystem. Our mission is to elevate user interactions by transitioning from outdated static node configurations to an intelligent, situation-responsive framework. Imagine a future where wallets dynamically connect to the most optimal node without hesitation, freeing users from concerns about node reliability.
+As a collective from the IOTA community, we envision revolutionizing the IOTA/Shimmer ecosystem by introducing a Dynamic Node Selection (DNS) service. Our goal is to transition from static node assignments in wallets to dynamic, situational node selection—ushering in an era where operational node concerns are obsolete. Imagine IoT devices choosing the best nodes based on specific criteria like proof of work capability, event support, reliability, or connection speed. We emphasize wallet-to-node direct data traffic, ensuring efficiency and bypassing intermediary node pools.
 
-Envision IoT devices flawlessly navigating to nodes that are custom-selected for their unique requirements, whether it's processing speed, event compatibility, trust level, or workload capacity. At DLT.GREEN, we're committed to ensuring uninterrupted and direct data pathways between your wallet and the chosen node, effectively streamlining efficiency by eliminating reliance on intermediary node pools.
+## DLT.GREEN Automatic Node-Installer for Docker
 
-# DLT.GREEN NODE-INSTALLER VIA DOCKER
-
-Discover the ease of setting up IOTA/Shimmer Nodes with our innovative DLT.GREEN Node-Installer-Docker tool. This intuitive script is your gateway to deploying Hornet and Wasp nodes with minimal effort. Backed by the power of Docker technology, this installer is crafted with all skill levels in mind — a boon for novices and experts alike. Quickly establish your own IOTA/Shimmer nodes on a variety of platforms including servers or virtual private servers (VPS), and join the forefront of distributed ledger technology today.
+The DLT.GREEN Node-Installer-Docker provides an easy-to-use script that streamlines the setup of IOTA/Shimmer Nodes (Hornet, Wasp). With Docker running behind the scenes, our installation process is designed to be user-friendly, catering to both novices and seasoned users interested in deploying IOTA/Shimmer nodes on a server or virtual private server (VPS).
 
 ### Hardware Recommendations
 
