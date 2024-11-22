@@ -1,0 +1,869 @@
+vienna:
+  dlt.green:
+    PoolNFT: '0xADfD18d8D9A7f3bcf4D6Bbf87b71bd8745Fabc9E'
+    PoolGeoLocation: AT
+    PoolRank: 1
+    PoolMana: 1733634
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: vienna.dlt.builders
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 11657405
+    Features:
+      - pow
+    EventIds:
+      - '0x632155305e889f29bbdf9da22c28794f99bab7a01a2a1188dde21cdaa8042171'
+      - '0xe718e7f1d21c078109ef416c48b2b45f79e6d98d4ff2eb52334575bd8a7bf17e'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: vienna.dlt.builders
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://vienna.dlt.builders:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+iotabot-106:
+  dlt.green:
+    PoolNFT: '0xCB8DacaCcEfDaaA7BDdd5cdfc4FBAebfE5d2898b'
+    PoolGeoLocation: AT
+    PoolRank: 2
+    PoolMana: 1723652
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: iotabot-106.dlt.builders
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 6499614
+    Features: []
+    EventIds:
+      - '0x632155305e889f29bbdf9da22c28794f99bab7a01a2a1188dde21cdaa8042171'
+      - '0xe718e7f1d21c078109ef416c48b2b45f79e6d98d4ff2eb52334575bd8a7bf17e'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: iotabot-106.dlt.builders
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://iotabot-106.dlt.builders:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+timsonlabs:
+  dlt.green:
+    PoolNFT: '0x54Db5eaEC9ab8dA722e79578ca23C1BaB7fB6d52'
+    PoolGeoLocation: AT
+    PoolRank: 3
+    PoolMana: 1710817
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: DE
+    ISP: netcup GmbH
+    Domain: timsonlabs.dlt.builders
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 10072540
+    Features:
+      - pow
+    EventIds:
+      - '0x632155305e889f29bbdf9da22c28794f99bab7a01a2a1188dde21cdaa8042171'
+      - '0xe718e7f1d21c078109ef416c48b2b45f79e6d98d4ff2eb52334575bd8a7bf17e'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: DE
+    ISP: netcup GmbH
+    Domain: timsonlabs.dlt.builders
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://timsonlabs.dlt.builders:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+austria:
+  dlt.green:
+    PoolNFT: '0xDC65F51Cc6Fae39DACfCC34Fa7169FC6D474ec57'
+    PoolGeoLocation: AT
+    PoolRank: 4
+    PoolMana: 1710220
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: shimmer-access-node-01.dlt.green
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 9932227
+    Features:
+      - pow
+    EventIds:
+      - '0x632155305e889f29bbdf9da22c28794f99bab7a01a2a1188dde21cdaa8042171'
+      - '0xe718e7f1d21c078109ef416c48b2b45f79e6d98d4ff2eb52334575bd8a7bf17e'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: shimmer-access-node-01.dlt.green
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://shimmer-access-node-01.dlt.green:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+5p1x:
+  dlt.green:
+    PoolNFT: '0xeD47b3ebb1a5D22cDcfceEF5239Cf4bbF46bCc41'
+    PoolGeoLocation: AT
+    PoolRank: 5
+    PoolMana: 1682243
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: GB
+    ISP: Contabo GmbH
+    Domain: shimmer-access-node-02.dlt.green
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 12954300
+    Features:
+      - pow
+    EventIds: []
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: GB
+    ISP: Contabo GmbH
+    Domain: shimmer-access-node-02.dlt.green
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://shimmer-access-node-02.dlt.green:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+purkdrf:
+  dlt.green:
+    PoolNFT: '0x97FABCC7fEf81bCBded51Cb7acFD4a277cE84B1f'
+    PoolGeoLocation: AT
+    PoolRank: 6
+    PoolMana: 1667266
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: DE
+    ISP: netcup GmbH
+    Domain: shimmer-access-node-03.dlt.green
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 8763386
+    Features:
+      - pow
+    EventIds:
+      - '0x32dd81b45c36c67f5d1d9b218d023aa3a658f17c485caeb8300e6f5b9136b91c'
+      - '0x69194943b788eb67bfd3b1e258041af1cbb8f501489c5d826e6cd970cfaf01eb'
+      - '0xf537ce0f5f18726057342f9c66ce69da242f827a7b712e466a5ba56acf7b6b55'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: DE
+    ISP: netcup GmbH
+    Domain: shimmer-access-node-03.dlt.green
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://shimmer-access-node-03.dlt.green:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+tombaa:
+  dlt.green:
+    PoolNFT: '0xBeAFbf3EBfA873bC2A1Dd5cEecb769aaecfB6513'
+    PoolGeoLocation: AT
+    PoolRank: 7
+    PoolMana: 1659155
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: tombaa.dlt.builders
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 11252443
+    Features:
+      - pow
+    EventIds: []
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: tombaa.dlt.builders
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://tombaa.dlt.builders:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+vrom:
+  dlt.green:
+    PoolNFT: '0xe1d347f48D657c35De647c6E251b5d964db1ABB8'
+    PoolGeoLocation: AT
+    PoolRank: 8
+    PoolMana: 1573923
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: vrom.dlt.builders
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 11208526
+    Features:
+      - pow
+    EventIds: []
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: vrom.dlt.builders
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://vrom.dlt.builders:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+mogulbuster:
+  dlt.green:
+    PoolNFT: '0xE49Ac4Baf366cC86971ec26DEA68DEc75398b584'
+    PoolGeoLocation: AT
+    PoolRank: 20
+    PoolMana: 1565881
+    isHealthy: false
+    isIotaHealthy: null
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: mogulbuster.dlt.builders
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 9484416
+    Features:
+      - pow
+    EventIds:
+      - '0x32dd81b45c36c67f5d1d9b218d023aa3a658f17c485caeb8300e6f5b9136b91c'
+      - '0x632155305e889f29bbdf9da22c28794f99bab7a01a2a1188dde21cdaa8042171'
+      - '0x69194943b788eb67bfd3b1e258041af1cbb8f501489c5d826e6cd970cfaf01eb'
+      - '0xe718e7f1d21c078109ef416c48b2b45f79e6d98d4ff2eb52334575bd8a7bf17e'
+      - '0xf537ce0f5f18726057342f9c66ce69da242f827a7b712e466a5ba56acf7b6b55'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: AT
+    ISP: netcup GmbH
+    Domain: mogulbuster.dlt.builders
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://mogulbuster.dlt.builders:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+AlexTweeeet:
+  dlt.green:
+    PoolNFT: '0xBe7ee12BFc8ECbe9FDcC7bdcB2CbAb6AE7Be42f8'
+    PoolGeoLocation: AT
+    PoolRank: 9
+    PoolMana: 1370184
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: DE
+    ISP: netcup GmbH
+    Domain: node2.tecnode.de
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 11511354
+    Features:
+      - pow
+    EventIds:
+      - '0x32dd81b45c36c67f5d1d9b218d023aa3a658f17c485caeb8300e6f5b9136b91c'
+      - '0x632155305e889f29bbdf9da22c28794f99bab7a01a2a1188dde21cdaa8042171'
+      - '0x69194943b788eb67bfd3b1e258041af1cbb8f501489c5d826e6cd970cfaf01eb'
+      - '0xe718e7f1d21c078109ef416c48b2b45f79e6d98d4ff2eb52334575bd8a7bf17e'
+      - '0xf537ce0f5f18726057342f9c66ce69da242f827a7b712e466a5ba56acf7b6b55'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: DE
+    ISP: netcup GmbH
+    Domain: node2.tecnode.de
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://node2.tecnode.de:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
+yang.zpm.systems:
+  dlt.green:
+    PoolNFT: '0x3590534e4661Be8CDD722FCbd971bBAc5F25cc5C'
+    PoolGeoLocation: AT
+    PoolRank: 10
+    PoolMana: 1142310
+    isHealthy: true
+    isIotaHealthy: true
+    isShimmerHealthy: true
+  ShimmerHornet:
+    NodeName: HORNET
+    NodeVersion: 2.0.2
+    GeoLocation: DE
+    ISP: IONOS SE
+    Domain: syang.zpm.systems
+    Port: '443'
+    ApiPort: ''
+    isHealthy: true
+    Protocol:
+      version: 2
+      networkName: shimmer
+      bech32Hrp: smr
+      minPowScore: 1500
+      belowMaxDepth: 15
+      rentStructure:
+        vByteCost: 100
+        vByteFactorData: 1
+        vByteFactorKey: 10
+      tokenSupply: '1813620509061365'
+    BaseToken:
+      name: Shimmer
+      tickerSymbol: SMR
+      unit: SMR
+      subunit: glow
+      decimals: 6
+      useMetricPrefix: false
+    pruningIndex: 9411860
+    Features:
+      - pow
+    EventIds:
+      - '0x632155305e889f29bbdf9da22c28794f99bab7a01a2a1188dde21cdaa8042171'
+      - '0xe718e7f1d21c078109ef416c48b2b45f79e6d98d4ff2eb52334575bd8a7bf17e'
+  ShimmerWasp:
+    NodeName: Wasp
+    NodeVersion: 1.5.1
+    GeoLocation: DE
+    ISP: IONOS SE
+    Domain: syang.zpm.systems
+    Port: '447'
+    ApiPort: '448'
+    isHealthy: true
+    ShimmerEVM-RPC: >-
+      https://syang.zpm.systems:448/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s/evm
+    ShimmerEVM:
+      isActive: true
+      chainID: smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      evmChainId: 148
+      chainOwnerId: smr1qpdqf3aeu8rjfg5drg4prg0hpndhkrmnsp9e77mvdk0rj2znh5ctumr30n9
+      gasFeePolicy:
+        evmGasRatio:
+          a: 1
+          b: 1
+        gasPerToken:
+          a: 1
+          b: 1
+        validatorFeeShare: 0
+      gasLimits:
+        maxGasPerBlock: 1000000000
+        minGasPerRequest: 10000
+        maxGasPerRequest: 50000000
+        maxGasExternalViewCall: 50000000
+      publicURL: >-
+        https://api.evm.shimmer.network/v1/chains/smr1prxvwqvwf7nru5q5xvh5thwg54zsm2y4wfnk6yk56hj3exxkg92mx20wl3s
+      metadata:
+        evmJsonRpcURL: 'https://json-rpc.evm.shimmer.network'
+        evmWebSocketURL: 'wss://ws.json-rpc.evm.shimmer.network'
+        name: ShimmerEVM
+        description: The first smart contract chain anchored to the Shimmer Network
+        website: 'https://shimmer.network'
